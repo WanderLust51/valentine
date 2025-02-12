@@ -1,0 +1,56 @@
+body{
+    background-image: url(wall.jpg);
+    background-position:top;
+    background-repeat: repeat;
+    background-size: cover;
+
+    font-family: 'times new roman';
+
+    width: auto;
+    height:auto;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5cm;
+    padding: 9px 5%;
+    width: 85%;
+    height: 8cm;
+    border-radius: 1cm;
+
+    background-color:aliceblue;
+
+    > h2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1cm;
+
+    }
+
+    
+}
+& button{
+    display: flex;
+    padding: 5px 1cm;
+    margin: 0.5cm auto;
+    width: fit-content;
+    background-color: rgb(255, 77, 187);
+    color: white;
+    border-radius: 8px;
+    font-size:1.5rem;
+    border: none;
+    transition-duration: 100ms;
+    
+    &:active{
+        background-color: rgb(255, 77, 145);
+        transition-duration: 100ms;
+    }
+
+}
+button#no{
+    display: none;
+    position: relative;
+    margin: 0;
+}
