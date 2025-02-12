@@ -19,14 +19,16 @@ div{
     width: 85%;
     height: 8cm;
     border-radius: 1cm;
+    box-shadow: 1px 1px 5px rgba(255, 115, 115, 0.452);
 
     background-color:aliceblue;
-
+    
     > h2{
         width: 100%;
         text-align: center;
         margin-bottom: 1cm;
-
+        text-shadow: 1px 1px 5px rgba(255, 91, 91, 0.452);
+        
     }
 
     
@@ -42,6 +44,8 @@ div{
     font-size:1.5rem;
     border: none;
     transition-duration: 100ms;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.144);
+
     
     &:active{
         background-color: rgb(255, 77, 145);
